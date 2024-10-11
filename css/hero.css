@@ -1,0 +1,38 @@
+.hero{
+     padding: 120px 0 290px;
+     position: relative;
+     overflow: hidden;
+}
+.hero__container{
+
+}
+.hero__text{
+    text-align: center;
+}
+.hero__title{
+    font-family: "Motter Corpus Std", sans-serif ;
+    font-weight: 500;
+    color: var(--primary-pink);
+    font-size: 120px;
+}
+.black{
+    background: linear-gradient(180deg, rgba(11,65,65,1) 38%, rgba(0,0,0,1) 72%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 99;
+}
+
+.hero img{
+    position: absolute;
+}
+
+.hero img:nth-child(2){
+    bottom: 0;
+    left: 290px;
+}
+
+.hero img:nth-child(3){
+    top: 95px;
+    left: 290px;
+}
